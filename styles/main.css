@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+
+
+
 *{
     padding: 0;
     margin: 0;
@@ -28,11 +33,12 @@ header .logo{
     color: #fff;
     font-weight: 700;
     text-decoration: none;
-    font-size: 2em;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2.5em;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-header ul{
+/* header ul{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,6 +49,8 @@ header ul li{
 }
 header ul li a{
     text-decoration: none;
+    font-family:'Luckiest Guy', cursive;
+    font-size: 2rem;
     padding: 6px 15px;
     color: #fff;
     border-radius: 15px;
@@ -51,7 +59,7 @@ header ul li a:hover,
 header ul li a.active {
     background: #fff;
     color:#2b1055;
-}
+} */
 
 /*--SECTION E IMAGENES*/
 section{
@@ -94,15 +102,16 @@ section img#mountains_front{
 /*--TEXTO CENTRAL--*/
 #text{
     position: absolute;
-    right: -350px; /*pendiente oculta el titulo*/
+    right: -300px; /*pendiente oculta el titulo*/
     color: #fff;
     white-space: nowrap;
+    font-family: 'Luckiest Guy', cursive;
     font-size: 5rem;
     z-index: 9;
 }
 
 /*--BOTON EXPLORAR--*/
-.btn{
+/* .btn{
     text-decoration:none;
     padding: 8px 30px;
     display: inline-block;
@@ -111,7 +120,7 @@ section img#mountains_front{
     color: #2b1055;
     font-size: 1.5em;
     transform: translateY(100px);
-}
+} */
 
 /*--SECCION RETOS--*/
 .sec{
